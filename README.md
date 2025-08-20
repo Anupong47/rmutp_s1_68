@@ -1,6 +1,6 @@
 # Prisma
 
-Prawee Wongsa
+Anupong Janjaroen
 
 ## Running
 ### Database
