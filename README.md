@@ -42,3 +42,7 @@ npx prisma db push
 ```bash
 npx prisma generate
 ```
+### Run This Projext
+```bash
+npx run bulid
+```
