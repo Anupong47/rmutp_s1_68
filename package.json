@@ -2,18 +2,20 @@
   "scripts": {
     "build": "tsc",
     "start": "node app/dis/server.js",
-    "dev": "ts-nodee app/server.ts",
+    "dev": "ts-node app/server.ts",
     "tsc": "tsc -p app && node app/dist/server.js"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.0",
     "@prisma/client": "^6.14.0",
+    "bcrypt": "^6.0.0",
     "hono": "^4.9.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "prisma": "^6.14.0"
   }
 }
